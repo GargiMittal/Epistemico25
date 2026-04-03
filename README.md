@@ -15,6 +15,9 @@ Organized by the Creative Arts Society, the fest features events under four majo
 
 Participants from various colleges across Rajasthan and nearby states come together to compete, connect, and celebrate!
 
+🌐 **Live Demo:** [https://gargimittal.github.io/Epistemico25/](https://gargimittal.github.io/Epistemico25/)
+
+
 # Epistemico25
 
 
