@@ -48,6 +48,8 @@ The site features:
 ✅ Responsive and dynamic design  
 ✅ Easy updates and maintenance
 
+🌐 **Live Demo:** [https://gargimittal.github.io/Epistemico25/](https://gargimittal.github.io/Epistemico25/)
+
 ## 🏗️ Project Structure
 
 ```
