@@ -15,13 +15,31 @@ Organized by the Creative Arts Society, the fest features events under four majo
 
 Participants from various colleges across Rajasthan and nearby states come together to compete, connect, and celebrate!
 
+# Epistemico25
+
+
+🎉 **Epistemico25** is the official website for the **12th edition of Epistemico**, the annual techno-cultural fest of Mahila Engineering College, Ajmer. 
+
+🌟 **Celebrating Innovation, Culture, and Creativity!**  
+Epistemico has been a legacy of Mahila Engineering College, Ajmer, right from its inception. This vibrant fest is a celebration of technocrats and feminism, blending technology, culture, innovation, and literature into an unforgettable experience.  
+
+Organized by the Creative Arts Society, the fest features events under four major committees:
+- **Technical**
+- **Cultural**
+- **Innovation**
+- **Literary**
+
+Participants from various colleges across Rajasthan and nearby states come together to compete, connect, and celebrate!
+
 ---
 
 ## 🚀 Overview
 
-- **Framework:** Flask (Python)
+**Note:** This is the static template version of the original Flask-based Epistemico25 website. The backend has been removed, and all dynamic content has been converted to static HTML for easier hosting and deployment.
+
+- **Framework:** Static HTML/CSS/JavaScript (converted from Flask)
 - **Frontend:** HTML, CSS, JavaScript
-- **Hosting:** [Render](https://render.com)
+- **Hosting:** Compatible with static hosting services like GitHub Pages, Netlify, or Vercel
 - **Media Hosting:** [Cloudinary](https://cloudinary.com)
 
 The site features:
@@ -34,26 +52,35 @@ The site features:
 
 ```
 .
-├── app.py
-├── routes.py
-├── models.py
-├── config.py
-├── static/            # CSS, JS, images
-├── templates/         # HTML templates
-├── requirements.txt
-├── Procfile           # Deployment config
-└── migrations/        # Database migrations (if used)
+├── index.html         # Home page
+├── events.html        # Events listing
+├── gallery.html       # Image gallery
+├── about.html         # About section
+├── team.html          # Team profiles
+├── static/            # CSS, JS, images, fonts
+├── README.md
+└── LICENSE
 ```
 
-## 🛠️ Installation
+## 🛠️ Installation / Deployment
 
-```bash
-git clone https://github.com/GargiMittal/Epistemico25.git
-cd Epistemico25
-pip install -r requirements.txt
-python app.py
-```
-Visit: [http://localhost:5000/](http://localhost:5000/)
+Since this is a static site, no installation is required. To view locally:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/GargiMittal/Epistemico25.git
+   cd Epistemico25
+   ```
+
+2. Open `index.html` in your browser, or serve with a local server:
+   ```bash
+   python -m http.server 8000
+   ```
+   Visit: [http://localhost:8000/](http://localhost:8000/)
+
+For deployment to static hosting:
+- Upload the files to GitHub Pages, Netlify, or any static host.
+- Ensure all paths are relative for portability.
 
 
 ## 👥 Website Development Team
